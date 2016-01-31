@@ -40,7 +40,7 @@ char reverse_string(char * str, int length){
 		string_length--;
 	}
 
-    printf("%s\n",string_reversed);
+    printf("%s\n\n",string_reversed);
 
     // check if string was reversed correctly
     if(string_inc < length)
