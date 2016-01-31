@@ -10,6 +10,11 @@
 #include <string.h>
 #include "hw1.h"
 
+typedef enum {
+	PASS,
+	FAIL
+} error_codes;
+
 char reverse_string(char * str, int length){
     // declare variables
     int string_inc = 0;

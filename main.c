@@ -10,15 +10,10 @@
 #include <string.h>
 #include "hw1.h"
 
-//char reverse_string(char * str, int length);
+char reverse_string(char * str, int length);
 char string_cheese[] = "This is a string.";
 char stringy_cheese[] = "some NUMmbers12345";
 char stringiest_cheese[] = "Does it reverse \n\0\t correctly?";
-
-typedef enum {
-	PASS,
-	FAIL
-} error_codes;
 
 int main(void){
 	// first string
